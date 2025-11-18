@@ -1,0 +1,29 @@
+.container{
+    display:grid;
+    width: 700x;
+    height: 100vh;
+    border: 1px solid black;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.s-1{
+    background-color:blue;
+}
+.s-2{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.aa{
+    background-color: aqua;
+}
+.bb{
+    background-color: blanchedalmond;
+}
+.cc{
+    background-color: aqua;
+}
+.s-3{
+    background-color: blue;
+}
+
+
+

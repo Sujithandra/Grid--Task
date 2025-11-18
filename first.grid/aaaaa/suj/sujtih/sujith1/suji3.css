@@ -1,0 +1,35 @@
+.container{
+    display:grid;
+    width: 700x;
+    height: 90vh;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-areas:"s1 s2 s2"
+                        "s3 s3 s4"
+                        "s5 s6 s4";
+}
+.ss1{
+    background-color: pink;
+}
+.ss2{
+    grid-area: s2;
+    background-color: black;
+}
+.ss3{
+    grid-area: s3;
+    background-color: blue;
+}
+.ss4{
+    grid-area:s4;
+    background-color: orange;
+}
+.ss5{
+    background-color: green;
+}
+.ss6{
+    background-color: black;
+}
+
+

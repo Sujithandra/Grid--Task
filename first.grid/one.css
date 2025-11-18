@@ -1,0 +1,35 @@
+.aa{
+    border:solid 2px red;
+    text-align: center;
+    padding: 10px;
+}
+.parent{
+    display:grid;
+    width:700x;
+    height:100vh;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows:1fr 2fr 1fr;
+    grid-template-areas:"aa aa aa"
+                         "bb bb cc"
+                         " dd ee ff";
+    
+                         
+}
+.child1{
+    background-color:blue;
+    grid-area:aa;
+}
+.child2{
+    background-color:yellow;
+    grid-area:bb;
+}
+.child3{
+    background-color: orangered;
+    grid-area:cc;
+}
+.child4{
+    background-color:red;
+}
+.child5{
+    background-color:rgb(223, 17, 51);
+}
